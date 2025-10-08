@@ -43,13 +43,24 @@ This project focuses on developing an advanced voice-to-English translation syst
 
 ## ⚙️ Tech Stack
 
-| **Category**                | **Technologies**                                                                                       |
-|-----------------------------|----------------------------------------------------------------------------------------------------|
-| **Programming Languages**   | [![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)              |
-| **Frameworks**              | [![Pytorch](https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/) [![Tensorflow](https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white)](https://keras.io/) |
-| **Libraries**               | [![Pandas](https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/) [![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)             |
-| **Deep Learning Models**    | [![LSTM](https://img.shields.io/badge/LSTM-563D7C?style=for-the-badge&logo=lstm&logoColor=white)](https://en.wikipedia.org/wiki/Long_short-term_memory) [![Transformers](https://img.shields.io/badge/CNN-0A192E?style=for-the-badge&logo=cnn&logoColor=white)](https://www.geeksforgeeks.org/convolutional-neural-network-cnn-in-machine-learning/) |
-| **Dataset**                 | [![Bhasha Anuvad](https://img.shields.io/badge/MIRACL--VC1-4D2A4E?style=for-the-badge&logo=dataset&logoColor=white)](https://paperswithcode.com/dataset/miracl-vc1)                                                                            |
-| **Tools**                   | [![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) [![Google Colab](https://img.shields.io/badge/google%20colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/)                            |
-| **Visualization & Analysis**| [![Matplotlib](https://img.shields.io/badge/matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org/)            |
+
+## 📁 File Structure
+
+
+## 💾 Dataset: Bhaashaanuvad
+
+The **Bhaashaanuvad** dataset is designed to support research in multilingual speech-to-text and translation systems. It focuses on converting spoken audio from various Indian and global languages into accurate transcriptions and their corresponding English translations. Below is a breakdown of its structure and contents:
+
+🎙️ Audio Samples: Contains recordings of spoken sentences in multiple languages (such as Hindi, Marathi, Bengali, Tamil, and others).
+
+📝 Transcriptions: Each audio file is paired with a text transcript of the original language, facilitating ASR (Automatic Speech Recognition) training.
+
+🌐 Translations: Provides parallel English translations of the transcripts, enabling effective NMT (Neural Machine Translation) training.
+
+🧠 Purpose: Built to train and evaluate end-to-end speech translation pipelines, particularly systems that integrate ASR and NMT models for real-time multilingual voice translation.
+
+⚙️ Format: Data is organized in JSON and CSV formats, with fields for audio_path, source_text, and translated_text.
+
+[Download the Bhaashaanuvad dataset on HuggingFace](https://huggingface.co/collections/ai4bharat/bhasaanuvaad-672b3790b6470eab68b1cb87)
+
 
