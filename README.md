@@ -29,8 +29,6 @@ This project focuses on developing an advanced voice-to-English translation syst
 
 ## 📊 Results
 
-### Live Detection
-
 
 ### Testing
 
@@ -41,7 +39,41 @@ This project focuses on developing an advanced voice-to-English translation syst
 ## ⚙️ Tech Stack
 
 
+| **Category**                | **Technologies**                                                                                       |
+|-----------------------------|----------------------------------------------------------------------------------------------------|
+| **Programming Languages**   | [![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)              |
+| **Frameworks**              | [![PyTorch](https://img.shields.io/badge/PyTorch-D00000?style=for-the-badge&logo=pytorch&logoColor=white&link=https%3A%2F%2Fpytorch.org%2F)](https://pytorch.org/)
+| **Libraries**               | [![OpenCV](https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/) [![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)             |
+| **Deep Learning Models**    | [![LSTM](https://img.shields.io/badge/LSTM-563D7C?style=for-the-badge&logo=lstm&logoColor=white)](https://en.wikipedia.org/wiki/Long_short-term_memory) [![CNN](https://img.shields.io/badge/CNN-0A192E?style=for-the-badge&logo=cnn&logoColor=white)](https://www.geeksforgeeks.org/convolutional-neural-network-cnn-in-machine-learning/) |
+| **Dataset**                 | [![MIRACL-VC1](https://img.shields.io/badge/MIRACL--VC1-4D2A4E?style=for-the-badge&logo=dataset&logoColor=white)](https://paperswithcode.com/dataset/miracl-vc1)                                                                            |
+| **Tools**                   | [![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) [![Google Colab](https://img.shields.io/badge/google%20colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/)                            |
+| **Visualization & Analysis**| [![Matplotlib](https://img.shields.io/badge/matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org/) [![Seaborn](https://img.shields.io/badge/seaborn-013243?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)                 |
+
+
+
 ## 📁 File Structure
+
+    ├── Dataset Preprocessing
+        ├── ctc.ipynb
+        ├── asr.ipynb
+    ├── Mini Projects
+        ├── fruit_classifier.ipynb
+        ├── 
+        ├── 
+        ├── 
+        ├── 
+    ├── Model Architecture
+       ├── asr-ctc.ipynb
+       ├── asr-transformers.ipynb
+       ├── nmt.ipynb
+    ├── Model Evaluation
+       ├── Accuracy.ipynb
+       ├── Testing.ipynb
+    ├── Notes
+       ├── Purvasha Singh
+       ├── Vaishnavi Sanap
+       ├── Harsh Sankhe      
+    ├── README.md
 
 
 ## 💾 Dataset: Bhaashaanuvad
@@ -122,18 +154,18 @@ Incorporate paralinguistic features like tone, pitch, and emotion recognition to
 We would like to express our gratitude to all the tools and courses which helped in successful completion of this project.
 
 **Research Papers**
-- [https://huggingface.co/learn/audio-course/en/chapter3/introduction] https://huggingface.co/learn/audio-course/en/chapter3/introduction
-- [https://keras.io/examples/audio/transformer_asr/] https://keras.io/examples/audio/transformer_asr/
-- [https://keras.io/examples/audio/ctc_asr/] https://keras.io/examples/audio/ctc_asr/
+- [https://huggingface.co/learn/audio-course/en/chapter3/introduction] (https://huggingface.co/learn/audio-course/en/chapter3/introduction)
+- [https://keras.io/examples/audio/transformer_asr/] (https://keras.io/examples/audio/transformer_asr/)
+- [https://keras.io/examples/audio/ctc_asr/] (https://keras.io/examples/audio/ctc_asr/)
 
 **Videos**
-- [https://youtu.be/ZXiruGOCn9s?si=MoDN_55z-8Ns216k] https://youtu.be/ZXiruGOCn9s?si=MoDN_55z-8Ns216k
-- [https://youtu.be/SZorAJ4I-sA?si=F-cHsJH6L4-VED4I] https://youtu.be/SZorAJ4I-sA?si=F-cHsJH6L4-VED4I
+- [https://youtu.be/ZXiruGOCn9s?si=MoDN_55z-8Ns216k] (https://youtu.be/ZXiruGOCn9s?si=MoDN_55z-8Ns216k)
+- [https://youtu.be/SZorAJ4I-sA?si=F-cHsJH6L4-VED4I] (https://youtu.be/SZorAJ4I-sA?si=F-cHsJH6L4-VED4I)
 
 **Courses**
 - [Andrew Ng's Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
 
-A special thanks to our project mentors [Sourish Phate](https://github.com/sourishphate), [Niharika] (https://github.com/23f2003701-1) and to the entire [Project X](https://github.com/ProjectX-VJTI) community for unwavering support and guidance throughout this journey.
+A special thanks to our project mentors [Sourish Phate](https://github.com/sourishphate), [Niharika](https://github.com/23f2003701-1) and to the entire [Project X](https://github.com/ProjectX-VJTI) community for unwavering support and guidance throughout this journey.
 
 ## 👥 Contributors
 
@@ -142,4 +174,15 @@ A special thanks to our project mentors [Sourish Phate](https://github.com/souri
 - [Harsh Sankhe](https://github.com/harsh-sankhe)
 
 
-
+🗂 DatasetDict (Root)
+│
+ ├── 📁 hindi (88,566 rows)
+ │ ├── chunked_audio_filepath → path to each audio chunk (.wav)
+ │ ├── text → original transcript (in Hindi)
+ │ ├── pred_text → model-predicted transcript
+ │ ├── audio_filepath → full original audio file path
+ │ ├── start_time → starting time (of chunk in seconds)
+ │ ├── duration → chunk duration (in seconds)
+ │ ├── alignment_score → matching score between audio & text
+ │ ├── en_text → English translation of transcript
+ │ └── en_mining_score → quality/confidence of English mining (remove this )
