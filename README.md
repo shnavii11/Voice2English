@@ -80,15 +80,28 @@ This project focuses on developing an advanced voice-to-English translation syst
 
 The **Bhaashaanuvad** dataset is designed to support research in multilingual speech-to-text and translation systems. It focuses on converting spoken audio from various Indian and global languages into accurate transcriptions and their corresponding English translations. Below is a breakdown of its structure and contents:
 
-🎙️ Audio Samples: Contains recordings of spoken sentences in multiple languages (such as Hindi, Marathi, Bengali, Tamil, and others).
+Audio Samples: Contains recordings of spoken sentences in multiple languages (such as Hindi, Marathi, Bengali, Tamil, and others).
 
-📝 Transcriptions: Each audio file is paired with a text transcript of the original language, facilitating ASR (Automatic Speech Recognition) training.
+Transcriptions: Each audio file is paired with a text transcript of the original language, facilitating ASR (Automatic Speech Recognition) training.
 
-🌐 Translations: Provides parallel English translations of the transcripts, enabling effective NMT (Neural Machine Translation) training.
+Translations: Provides parallel English translations of the transcripts, enabling effective NMT (Neural Machine Translation) training.
 
-🧠 Purpose: Built to train and evaluate end-to-end speech translation pipelines, particularly systems that integrate ASR and NMT models for real-time multilingual voice translation.
+Purpose: Built to train and evaluate end-to-end speech translation pipelines, particularly systems that integrate ASR and NMT models for real-time multilingual voice translation.
 
-⚙️ Format: Data is organized in JSON and CSV formats, with fields for audio_path, source_text, and translated_text.
+Format: Data is organized in JSON and CSV formats, with fields for audio_path, source_text, and translated_text.
+
+
+DatasetDict (Root)
+│
+ ├── 📁 hindi (88,566 rows)
+ │ ├── chunked_audio_filepath → path to each audio chunk (.wav)
+ │ ├── text → original transcript (in Hindi)
+ │ ├── pred_text → model-predicted transcript
+ │ ├── audio_filepath → full original audio file path
+ │ ├── start_time → starting time (of chunk in seconds)
+ │ ├── duration → chunk duration (in seconds)
+ │ ├── alignment_score → matching score between audio & text
+ │ ├── en_text → English translation of transcript
 
 [Download the Bhaashaanuvad dataset on HuggingFace](https://huggingface.co/collections/ai4bharat/bhasaanuvaad-672b3790b6470eab68b1cb87)
 
@@ -174,7 +187,7 @@ A special thanks to our project mentors [Sourish Phate](https://github.com/souri
 - [Harsh Sankhe](https://github.com/harsh-sankhe)
 
 
-🗂 DatasetDict (Root)
+DatasetDict (Root)
 │
  ├── 📁 hindi (88,566 rows)
  │ ├── chunked_audio_filepath → path to each audio chunk (.wav)
@@ -185,4 +198,4 @@ A special thanks to our project mentors [Sourish Phate](https://github.com/souri
  │ ├── duration → chunk duration (in seconds)
  │ ├── alignment_score → matching score between audio & text
  │ ├── en_text → English translation of transcript
- │ └── en_mining_score → quality/confidence of English mining (remove this )
+
