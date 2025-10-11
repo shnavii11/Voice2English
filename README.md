@@ -105,7 +105,7 @@ Format: Data is organized in JSON and CSV formats, with fields for audio_path, s
 
 ## 🤖 Model Architecture
 
-🧩 Format 1: ASR (BiLSTM + CTC + CNN) + NMT (Transformer)
+Format 1: ASR (BiLSTM + CTC + CNN) + NMT (Transformer)
 
 1. Convolutional Neural Network (CNN)
 Initial convolutional layers extract low-level spectral and temporal features from the input spectrograms or MFCCs, capturing important acoustic patterns.
@@ -125,9 +125,9 @@ The ASR transcript is fed into a Transformer-based NMT model, which uses multi-h
 6. Decoder Layer (English Output)
 The final decoder produces the translated English text, leveraging both encoder context and learned attention mechanisms for accuracy.
 
-💡 This hybrid architecture combines the temporal modeling strength of BiLSTM with the contextual understanding power of Transformers.
+This hybrid architecture combines the temporal modeling strength of BiLSTM with the contextual understanding power of Transformers.
 
-⚙️ Format 2: ASR (Transformer) + NMT (Transformer)
+Format 2: ASR (Transformer) + NMT (Transformer)
 
 1. Feature Extraction (Spectrogram/MFCC)
 The input audio is converted into spectrograms or MFCC representations, forming the foundation for transformer-based speech modeling.
@@ -147,7 +147,9 @@ A second Transformer model takes the recognized text as input, encoding the sour
 6. Final Output Layer
 The NMT decoder outputs a sequence of English words or tokens, forming the final translated sentence.
 
-💡 This fully transformer-based pipeline is end-to-end, efficient, and highly scalable — achieving state-of-the-art performance in multilingual voice translation.
+<p align="center">
+  <img src="Media/Format2.png" alt="format" width="100%" />
+</p>
 
 ## 🌟 Future Scope
 
@@ -184,16 +186,4 @@ A special thanks to our project mentors [Sourish Phate](https://github.com/souri
 - [Vaishnavi Sanap](https://github.com/shnavii11)
 - [Harsh Sankhe](https://github.com/harsh-sankhe)
 
-
-DatasetDict (Root)
-│
- ├── 📁 hindi (88,566 rows)
- │ ├── chunked_audio_filepath → path to each audio chunk (.wav)
- │ ├── text → original transcript (in Hindi)
- │ ├── pred_text → model-predicted transcript
- │ ├── audio_filepath → full original audio file path
- │ ├── start_time → starting time (of chunk in seconds)
- │ ├── duration → chunk duration (in seconds)
- │ ├── alignment_score → matching score between audio & text
- │ ├── en_text → English translation of transcript
 
