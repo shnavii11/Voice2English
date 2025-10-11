@@ -43,8 +43,9 @@ This project focuses on developing an advanced voice-to-English translation syst
 |-----------------------------|----------------------------------------------------------------------------------------------------|
 | **Programming Languages**   | [![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)              |
 | **Frameworks**              | [![PyTorch](https://img.shields.io/badge/PyTorch-D00000?style=for-the-badge&logo=pytorch&logoColor=white&link=https%3A%2F%2Fpytorch.org%2F)](https://pytorch.org/)
-| **Libraries**               | [![OpenCV](https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/) [![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)             |
-| **Deep Learning Models**    | [![LSTM](https://img.shields.io/badge/LSTM-563D7C?style=for-the-badge&logo=lstm&logoColor=white)](https://en.wikipedia.org/wiki/Long_short-term_memory) [![CNN](https://img.shields.io/badge/CNN-0A192E?style=for-the-badge&logo=cnn&logoColor=white)](https://www.geeksforgeeks.org/convolutional-neural-network-cnn-in-machine-learning/) |
+| **Libraries**               | [![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/) [![Pandas](https://img.shields.io/badge/pandas-5C3EE8?style=for-the-badge&logo=pandas&logoColor=white&link=https%3A%2F%2Fpandas.pydata.org%2F)(https://pandas.pydata.org/)]            |
+| **Deep Learning Models**    | [![LSTM](https://img.shields.io/badge/LSTM-563D7C?style=for-the-badge&logo=lstm&logoColor=white)](https://en.wikipedia.org/wiki/Long_short-term_memory) [![CNN](https://img.shields.io/badge/CNN-0A192E?style=for-the-badge&logo=cnn&logoColor=white)](https://www.geeksforgeeks.org/convolutional-neural-network-cnn-in-machine-learning/) [![CTC](https://img.shields.io/badge/ctc-013243?style=for-the-badge&logo=ctc&logoColor=white)(https://en.wikipedia.org/wiki/Connectionist_temporal_classification)] [![Transformers](https://img.shields.io/badge/transformers-FF6F00?style=for-the-badge&logo=transformers&logoColor=white
+)(https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)#:~:text=Its%20architecture%20consists%20of%20two,(GRU)%20instead%20of%20LSTM.)] |
 | **Dataset**                 | [![MIRACL-VC1](https://img.shields.io/badge/MIRACL--VC1-4D2A4E?style=for-the-badge&logo=dataset&logoColor=white)](https://paperswithcode.com/dataset/miracl-vc1)                                                                            |
 | **Tools**                   | [![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) [![Google Colab](https://img.shields.io/badge/google%20colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/)                            |
 | **Visualization & Analysis**| [![Matplotlib](https://img.shields.io/badge/matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org/) [![Seaborn](https://img.shields.io/badge/seaborn-013243?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)                 |
@@ -154,13 +155,13 @@ Incorporate paralinguistic features like tone, pitch, and emotion recognition to
 We would like to express our gratitude to all the tools and courses which helped in successful completion of this project.
 
 **Research Papers**
-- [https://huggingface.co/learn/audio-course/en/chapter3/introduction] (https://huggingface.co/learn/audio-course/en/chapter3/introduction)
-- [https://keras.io/examples/audio/transformer_asr/] (https://keras.io/examples/audio/transformer_asr/)
-- [https://keras.io/examples/audio/ctc_asr/] (https://keras.io/examples/audio/ctc_asr/)
+- [https://huggingface.co/learn/audio-course/en/chapter3/introduction](https://huggingface.co/learn/audio-course/en/chapter3/introduction)
+- [https://keras.io/examples/audio/transformer_asr/](https://keras.io/examples/audio/transformer_asr/)
+- [https://keras.io/examples/audio/ctc_asr/](https://keras.io/examples/audio/ctc_asr/)
 
 **Videos**
-- [https://youtu.be/ZXiruGOCn9s?si=MoDN_55z-8Ns216k] (https://youtu.be/ZXiruGOCn9s?si=MoDN_55z-8Ns216k)
-- [https://youtu.be/SZorAJ4I-sA?si=F-cHsJH6L4-VED4I] (https://youtu.be/SZorAJ4I-sA?si=F-cHsJH6L4-VED4I)
+- [https://youtu.be/ZXiruGOCn9s?si=MoDN_55z-8Ns216k](https://youtu.be/ZXiruGOCn9s?si=MoDN_55z-8Ns216k)
+- [https://youtu.be/SZorAJ4I-sA?si=F-cHsJH6L4-VED4I](https://youtu.be/SZorAJ4I-sA?si=F-cHsJH6L4-VED4I)
 
 **Courses**
 - [Andrew Ng's Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
