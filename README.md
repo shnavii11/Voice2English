@@ -90,18 +90,16 @@ Purpose: Built to train and evaluate end-to-end speech translation pipelines, pa
 
 Format: Data is organized in JSON and CSV formats, with fields for audio_path, source_text, and translated_text.
 
-
-DatasetDict (Root)
-│
- ├── 📁 hindi (88,566 rows)
- │ ├── chunked_audio_filepath → path to each audio chunk (.wav)
- │ ├── text → original transcript (in Hindi)
- │ ├── pred_text → model-predicted transcript
- │ ├── audio_filepath → full original audio file path
- │ ├── start_time → starting time (of chunk in seconds)
- │ ├── duration → chunk duration (in seconds)
- │ ├── alignment_score → matching score between audio & text
- │ ├── en_text → English translation of transcript
+  ├──DatasetDict (Root)
+    ├── 📁 hindi (88,566 rows)
+    ├── chunked_audio_filepath → path to each audio chunk (.wav)
+    ├── text → original transcript (in Hindi)
+    ├── pred_text → model-predicted transcript
+    ├── audio_filepath → full original audio file path
+    ├── start_time → starting time (of chunk in seconds)
+    ├── duration → chunk duration (in seconds)
+    ├── alignment_score → matching score between audio & text
+    ├── en_text → English translation of transcript
 
 [Download the Bhaashaanuvad dataset on HuggingFace](https://huggingface.co/collections/ai4bharat/bhasaanuvaad-672b3790b6470eab68b1cb87)
 
