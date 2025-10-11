@@ -125,7 +125,9 @@ The ASR transcript is fed into a Transformer-based NMT model, which uses multi-h
 6. Decoder Layer (English Output)
 The final decoder produces the translated English text, leveraging both encoder context and learned attention mechanisms for accuracy.
 
-This hybrid architecture combines the temporal modeling strength of BiLSTM with the contextual understanding power of Transformers.
+<p align="center">
+  <img src="Media/Format1.png" alt="format" width="100%" />
+</p>
 
 Format 2: ASR (Transformer) + NMT (Transformer)
 
