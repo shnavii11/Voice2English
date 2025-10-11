@@ -53,26 +53,27 @@ This project focuses on developing an advanced voice-to-English translation syst
 
 ## 📁 File Structure
 
-    ├── Dataset Preprocessing
+    ├── Dataset_Preprocessing
         ├── ctc.ipynb
         ├── asr.ipynb
-    ├── Mini Projects
+    ├── Mini_Projects
         ├── fruit_classifier.ipynb
+        ├── alpa_classi.ipynb
+        ├── miniproject_lstm.ipynb
         ├── 
         ├── 
-        ├── 
-        ├── 
-    ├── Model Architecture
+    ├── Model_Architecture
        ├── asr-ctc.ipynb
        ├── asr-transformers.ipynb
        ├── nmt.ipynb
-    ├── Model Evaluation
+    ├── Model_Evaluation
        ├── Accuracy.ipynb
        ├── Testing.ipynb
     ├── Notes
-       ├── Purvasha Singh
-       ├── Vaishnavi Sanap
-       ├── Harsh Sankhe      
+       ├── Purvasha_Notes
+       ├── Vaishnavi_Notes
+       ├── Harsh_Notes  
+    ├── Media
     ├── README.md
 
 
