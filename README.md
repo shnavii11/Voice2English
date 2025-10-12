@@ -32,6 +32,9 @@ This project focuses on developing an advanced voice-to-English translation syst
 
 ### Testing
 
+<p align="center">
+  <img src="Media/Testing_Video.mov" alt="voice2english" width="350" />
+</p>
 
 ### Accuracy
 
@@ -66,8 +69,8 @@ This project focuses on developing an advanced voice-to-English translation syst
        ├── VOICE2ENGLISH_CTC.ipynb
        ├── VOICE2ENGLISH_NMT.ipynb
     ├── Model_Evaluation
-       ├── Accuracy.ipynb
-       ├── Testing.ipynb
+       ├── Model_Testing_Transformer
+       ├── Model_Testing_CTC
     ├── Notes
        ├── Purvasha_Notes
        ├── Vaishnavi_Notes
