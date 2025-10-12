@@ -32,9 +32,7 @@ This project focuses on developing an advanced voice-to-English translation syst
 
 ### Testing
 
-<p align="center">
-  <img src="Media/Testing_Video.mp4" alt="voice2english" width="350" />
-</p>
+https://github.com/harsh-sankhe/Voice2English/blob/main/Media/Testing_Video.mp4
 
 ### Accuracy
 
