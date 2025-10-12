@@ -54,18 +54,17 @@ This project focuses on developing an advanced voice-to-English translation syst
 ## 📁 File Structure
 
     ├── Dataset_Preprocessing
-        ├── ctc.ipynb
-        ├── asr.ipynb
+        ├── Preprocessing_ASR(Transformer)
+        ├── Preprocessing_ASR(Transformer)
     ├── Mini_Projects
         ├── fruit_classifier.ipynb
         ├── alpa_classi.ipynb
         ├── miniproject_lstm.ipynb
-        ├── 
-        ├── 
+        ├── EmotionalRecognizer.ipynb
     ├── Model_Architecture
-       ├── asr-ctc.ipynb
-       ├── asr-transformers.ipynb
-       ├── nmt.ipynb
+       ├── VOICE2ENGLISH_TRANSFORMER.ipynb
+       ├── VOICE2ENGLISH_CTC.ipynb
+       ├── VOICE2ENGLISH_NMT.ipynb
     ├── Model_Evaluation
        ├── Accuracy.ipynb
        ├── Testing.ipynb
