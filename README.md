@@ -33,7 +33,7 @@ This project focuses on developing an advanced voice-to-English translation syst
 ### Testing
 
 <p align="center">
-  <img src="Media/Testing_Video.mov" alt="voice2english" width="350" />
+  <img src="Media/Testing_Video.mp4" alt="voice2english" width="350" />
 </p>
 
 ### Accuracy
