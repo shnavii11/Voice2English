@@ -3,7 +3,7 @@
 <p align="center">
   <img src="Media/MainImage.png" alt="voice2english" width="350" />
 </p>
-
+ 
 <div align="center">
   <strong>The goal is to convert any spoken language into transcript of that original language and then convert that transcript into english language.</strong>
 </div>
