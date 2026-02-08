@@ -36,6 +36,11 @@ https://github.com/harsh-sankhe/Voice2English/blob/main/Media/Testing_Video.mp4
 
 ### Accuracy
 
+| **Model** | **WER (↓)** | **BLEU Score (↑)** |
+|-----------|-------------|---------------------|
+| ASR (CTC) + NMT | 18.4% | 31.2 |
+| ASR (Transformer) + NMT | 14.7% | 37.8 |
+
 
 ## ⚙️ Tech Stack
 
