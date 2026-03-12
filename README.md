@@ -170,6 +170,12 @@ Develop a user-friendly web or mobile interface that allows users to speak in an
 3. Emotion & Context Awareness:
 Incorporate paralinguistic features like tone, pitch, and emotion recognition to produce translations that better capture the speaker’s intent and sentiment, not just the literal meaning.
 
+4. Pre-trained Model Fine-tuning:
+Fine-tune state-of-the-art pre-trained models like Whisper (OpenAI) for ASR and mBART/mT5 for NMT on the Bhaashaanuvad dataset to potentially achieve significantly lower WER and higher BLEU scores with less training time.
+
+5. Edge Deployment:
+Optimize and quantize the models for deployment on edge devices (mobile phones, embedded systems) using techniques like knowledge distillation, pruning, and INT8 quantization to enable offline translation without internet access.
+
 ## 📜 Acknowledgement
 
 We would like to express our gratitude to all the tools and courses which helped in successful completion of this project.
