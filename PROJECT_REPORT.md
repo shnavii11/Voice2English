@@ -1191,3 +1191,43 @@ becomes more complex.
 Both models showed degradation when tested on non-Hindi audio
 (Marathi, Bengali), indicating the need for multilingual
 training data in future iterations.
+
+
+---
+
+
+PAGE — CONCLUSION
+
+
+8. CONCLUSION
+
+This project successfully demonstrates an end-to-end multilingual
+speech-to-English translation pipeline combining Automatic Speech
+Recognition (ASR) and Neural Machine Translation (NMT). Two
+architectures were implemented and evaluated:
+
+  (1) A hybrid CTC-based ASR model (BiLSTM + CNN + CTC) combined
+      with a Transformer NMT model, achieving WER of 18.4% and
+      BLEU of 31.2 on the Hindi test split.
+
+  (2) A fully Transformer-based ASR model combined with the same
+      Transformer NMT model, achieving a superior WER of 14.7%
+      and BLEU of 37.8, demonstrating the power of self-attention
+      for modeling long-range audio-text dependencies.
+
+Key takeaways:
+
+  - Transformer architectures outperform BiLSTM+CTC for ASR on
+    this dataset, consistent with recent literature.
+  - The modular design (separate ASR and NMT components) allows
+    either component to be upgraded independently.
+  - The Bhaashaanuvad dataset provides high-quality aligned audio-
+    text-translation triplets, making it well-suited for this task.
+  - Training on a single language (Hindi) and testing cross-
+    lingually reveals a clear gap — multilingual fine-tuning is
+    the most impactful next step.
+
+The project provides a strong baseline for multilingual speech
+translation using deep learning, and the modular pipeline can be
+extended to support additional languages and deployment targets
+with moderate engineering effort.
