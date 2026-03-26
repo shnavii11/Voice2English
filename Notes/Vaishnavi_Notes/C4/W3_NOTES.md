@@ -43,3 +43,19 @@
 - Attention complexity: O(n*m) where n = source length, m = target length
 - For long audio sequences this can be expensive → use local attention or windowed attention
 - The alignment visualization (heatmap of α values) is a great debugging tool
+
+## Beam Search (Decoding)
+
+- Greedy decoding picks the highest probability token at each step — can miss better overall sequences
+- Beam search keeps top B candidates (beam width) at each step
+- Typically B=5 or B=10 — larger B improves quality but increases compute
+- Length normalization: divide log-probability by sequence length to avoid bias toward short outputs
+  → normalized score = (1/Ty) * Σ log P(y<t> | x, y<1..t-1>)
+
+## Bleu Score (recap)
+
+- Measures overlap between machine output and reference(s)
+- Precision based: how many n-grams in the hypothesis appear in the reference
+- Modified precision to avoid rewarding repetition
+- Combined score: BLEU = BP * exp(Σ wn * log pn)
+  where BP = brevity penalty, pn = n-gram precision
