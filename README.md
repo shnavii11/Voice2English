@@ -16,7 +16,7 @@
 - [Results](#-results)
 - [Tech Stack](#️-tech-stack)
 - [File Structure](#-file-structure)
-- [Dataset](#-dataset-miracl-vc1)
+- [Dataset](#-dataset-bhaashaanuvad)
 - [Model Architecture](#-model-architecture)
 - [Installation and Setup](#-installation-and-setup)
 - [Future Scope](#-future-scope)
@@ -81,6 +81,16 @@ https://github.com/harsh-sankhe/Voice2English/blob/main/Media/Testing_Video.mp4
     ├── Media
     ├── README.md
 
+
+## 🚀 Installation and Setup
+
+```bash
+git clone https://github.com/shnavii11/Voice2English.git
+cd Voice2English
+pip install -r requirements.txt
+```
+
+Open the notebooks in Google Colab or Kaggle for GPU access.
 
 ## 💾 Dataset: Bhaashaanuvad
 
