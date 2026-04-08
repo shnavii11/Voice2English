@@ -25,7 +25,7 @@
 
 - GRU: simpler, faster to train, works well for shorter sequences
 - LSTM: better for very long-range dependencies, more expressive
-- In practice: try both and see — for this project we went with BiLSTM for ASR
+- In practice: try both and see — for this project we went with BiLSTM for the CTC model
 
 ## Bidirectional RNNs (BRNN)
 

@@ -30,4 +30,4 @@
 
 - Introduces a "memory cell" c<t> and update/reset gates
 - Update gate Γu ∈ [0,1] decides how much of the old memory to keep
-- When Γu ≈ 0, the cell remembers information from many steps back
+- When Γu ≈ 0, the cell c<t> ≈ c<t-1> → remembers information from many steps back
