@@ -1231,3 +1231,46 @@ The project provides a strong baseline for multilingual speech
 translation using deep learning, and the modular pipeline can be
 extended to support additional languages and deployment targets
 with moderate engineering effort.
+
+
+---
+
+
+PAGE — REFERENCES
+
+
+9. REFERENCES
+
+[1]  Vaswani, A., et al. (2017). "Attention Is All You Need."
+     NeurIPS 2017.
+
+[2]  Graves, A., et al. (2006). "Connectionist Temporal
+     Classification: Labelling Unsegmented Sequence Data with
+     Recurrent Neural Networks." ICML 2006.
+
+[3]  Bahdanau, D., Cho, K., & Bengio, Y. (2015). "Neural Machine
+     Translation by Jointly Learning to Align and Translate."
+     ICLR 2015.
+
+[4]  Hochreiter, S., & Schmidhuber, J. (1997). "Long Short-Term
+     Memory." Neural Computation, 9(8), 1735-1780.
+
+[5]  Papineni, K., et al. (2002). "BLEU: a Method for Automatic
+     Evaluation of Machine Translation." ACL 2002.
+
+[6]  AI4Bharat. (2023). "Bhasaanuvaad: A Large-Scale Indic
+     Speech Translation Corpus." HuggingFace Datasets.
+
+[7]  Andrew Ng, et al. "Deep Learning Specialization."
+     Coursera / DeepLearning.AI.
+     https://www.coursera.org/specializations/deep-learning
+
+[8]  HuggingFace Audio Course. "Chapter 3: Transformer
+     Architecture for Audio."
+     https://huggingface.co/learn/audio-course/en/chapter3/introduction
+
+[9]  Keras Documentation. "CTC ASR Example."
+     https://keras.io/examples/audio/ctc_asr/
+
+[10] Keras Documentation. "Transformer ASR Example."
+     https://keras.io/examples/audio/transformer_asr/
